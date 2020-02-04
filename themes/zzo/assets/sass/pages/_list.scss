@@ -1,0 +1,40 @@
+.list {
+  &__main {
+
+  }
+
+  &__sidebar {
+    &.l {
+      margin-left: 1rem;
+    }
+
+    &.r {
+      margin-right: 1rem;
+    }
+
+    &[data-dir="rtl"] {
+      margin-left: 1rem;
+      margin-right: 0;
+    }
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.25rem 0;
+    font-family: $title-font;
+
+    &--title {
+      @include themify($themes) {
+        color: themed('list-header-title-color');
+      }
+    }
+
+    &--desc {
+      font-weight: italic;
+      padding: 1rem;
+      line-height: 1.7rem;
+    }
+  }
+}
