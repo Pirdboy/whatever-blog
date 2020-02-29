@@ -1,6 +1,6 @@
 logoText = ""
 logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
+description = "maybe an indie game developer"
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
@@ -31,7 +31,7 @@ talksGroupByDate = "2006"
 myname = "pird"
 email = "cqu_shihongyu@foxmail.com"
 whoami = "Backend Developer"
-bioImageUrl = ""
+bioImageUrl = "images/whoami/avatar-my.jpeg"
 useGravatar = false
 location = "Shenzhen, China"
 # organization = "Hugo"
@@ -55,7 +55,7 @@ sidebarPosition = "right"
 # footer
 showPoweredBy = true
 showFeedLinks = true
-showSocialLinks = true
+showSocialLinks = false
 enableLangChange = false
 enableThemeChange = false
 
@@ -67,7 +67,7 @@ busuanziSitePV = true
 busuanziPagePV = true
 
 # comment
-enableComment = true
+enableComment = false
 disqus_shortname = ""
 commento = false
 
@@ -148,8 +148,8 @@ commento = false
   patreon = ""
 
 # possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line"]
-[[share]]
-  name = "facebook"
-  username = ""
-[[share]]
-  name = "twitter"
+# [[share]]
+#   name = "facebook"
+#   username = ""
+# [[share]]
+#   name = "twitter"

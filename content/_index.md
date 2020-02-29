@@ -6,12 +6,12 @@ header:
     paddingY: 0
     align: center
     title:
-      - HUGO
+      - p2dstudio
     subtitle:
-      - The world’s fastest framework for building websites
+      - maybe an indie game developer
     titleColor: 
     titleShadow: true
-    titleFontSize: 44
+    titleFontSize: 46
     subtitleColor: 
     subtitleCursive: true
     subtitleFontSize: 18
