@@ -6,8 +6,8 @@ custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
 
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
-notAllowedTypesInHome = ["contact", "talks", "about", "showcase"]
-notAllowedTypesInHomeSidebar = ["about", "archive", "showcase"]
+notAllowedTypesInHome = ["gallery", "pt", "contact", "talks", "about", "showcase"]
+notAllowedTypesInHomeSidebar = ["gallery", "pt","about", "archive", "showcase"]
 notAllowedTypesInArchive = ["about", "talks", "showcase"]
 
 # header
@@ -41,7 +41,7 @@ location = "Shenzhen, China"
 enableBio = true
 enableSidebar = true
 enableSidebarTags = true
-enableSidebarSeries = true
+enableSidebarSeries = false
 enableSidebarCategories = true
 enableHomeSidebarTitles = true
 enableListSidebarTitles = true
